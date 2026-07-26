@@ -1,8 +1,29 @@
 aid: eyewa
 name: Eyewa
-description: Eyewa is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Eyewa is an online-first eyewear retailer serving the Middle East, selling
+  prescription eyeglasses, sunglasses, clear and colored contact lenses, eyewear
+  accessories, and eye-health vitamins through its e-commerce storefront and a
+  network of 260+ physical stores with click-and-collect. Headquartered in
+  Dubai, UAE, Eyewa operates across the GCC and offers regional payment options
+  such as Tabby, Tamara, and Apple Pay. It was added to the API Evangelist
+  network as a portfolio company of 500 Global. Eyewa publishes a consumer
+  storefront, an educational vision-and-eyewear blog, and standard commercial
+  policy pages, but does not currently expose a public developer API, SDKs, or
+  documented API surface.
 url: https://raw.githubusercontent.com/api-evangelist/eyewa/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://eyewa.com/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Eyewear
+- E-commerce
+- Retail
+- Optical
+- Contact Lenses
+- Sunglasses
+- Middle East
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/eyewa-domain-security.yml
 - type: Website
   url: https://eyewa.com
+- type: Blog
+  url: https://eyewa.com/blog/
+- type: Support
+  url: https://eyewa.com/ae-en/contact-us
+- type: PrivacyPolicy
+  url: https://eyewa.com/ae-en/privacy-policy
+- type: TermsOfService
+  url: https://eyewa.com/ae-en/terms-and-conditions
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
